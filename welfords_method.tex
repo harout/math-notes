@@ -6,13 +6,8 @@
 
 \begin{document}
 
-\title{Welford's Method for Computing Variance}
-\author{Harout Jarchafjian}
-
-\maketitle
-
 \begin{center}
-With all the steps missing from the derivation available \href{https://jonisalonen.com/2013/deriving-welfords-method-for-computing-variance/}{here}.
+Welford's Method for Computing Variance. With all the steps missing from the derivation available \href{https://jonisalonen.com/2013/deriving-welfords-method-for-computing-variance/}{here}.
 \end{center}
 
 \begin{equation}
@@ -27,9 +22,6 @@ With all the steps missing from the derivation available \href{https://jonisalon
      (x_N - \mean{x}_N)^2 + \sum_{i=1}^{N-1} (x_i - \mean{x}_N)^2 - (x_i - \mean{x}_{N-1})^2
 \end{equation}
 
-\begin{equation}
-     (x_N - \mean{x}_N)^2 + \sum_{i=1}^{N-1} (x_i - \mean{x}_N)^2 - (x_i - \mean{x}_{N-1})^2
-\end{equation}
 
 \marginpar{(difference of squares)}
 
